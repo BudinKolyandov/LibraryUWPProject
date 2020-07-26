@@ -17,7 +17,7 @@
         <muxc:TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="60" Margin="644,248,0,0" Text="Author Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="544" AcceptsReturn="True" TextChanged="textBox_Copy_TextChanged"/>
         <muxc:TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="300,348,0,0" Text="Place" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="234" FontSize="36" SelectionChanged="textBlock_SelectionChanged" FontWeight="Bold"/>
         <muxc:TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="60" Margin="644,348,0,0" Text="Place" TextWrapping="Wrap" VerticalAlignment="Top" Width="544" AcceptsReturn="True" TextChanged="textBox_Copy1_TextChanged"/>
-        <muxc:Button x:Name="button" Content="Submit" Margin="556,548,0,0" VerticalAlignment="Top" Width="440" Height="130" FontSize="72" FocusVisualPrimaryBrush="Red" Background="#33FF0000"/>
+        <muxc:Button x:Name="button" Content="Submit" Margin="556,548,0,0" VerticalAlignment="Top" Width="440" Height="130" FontSize="72" FocusVisualPrimaryBrush="Red" Background="#33FF0000" Click="button_Click"/>
 
     </Grid>
 </Page>
